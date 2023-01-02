@@ -51,7 +51,7 @@ strong {
 
 /* 보리 */
 
-.aboutUs-background__bori>img:nth-child(1) {
+.aboutUs-background__bori > img:nth-child(1) {
   position: absolute;
   top: 1000px;
   left: -20px;
@@ -59,7 +59,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(2) {
+.aboutUs-background__bori > img:nth-child(2) {
   position: absolute;
   top: 2100px;
   right: 0px;
@@ -67,7 +67,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(3) {
+.aboutUs-background__bori > img:nth-child(3) {
   position: absolute;
   top: 3600px;
   left: -65px;
@@ -75,7 +75,7 @@ strong {
   opacity: 0.2;
 }
 
-.aboutUs-background__bori>img:nth-child(4) {
+.aboutUs-background__bori > img:nth-child(4) {
   position: absolute;
   right: 0px;
   bottom: 600px;
@@ -83,7 +83,7 @@ strong {
   opacity: 0.3;
 }
 
-.aboutUs-background__bori>img:nth-child(5) {
+.aboutUs-background__bori > img:nth-child(5) {
   position: absolute;
   bottom: -5px;
   left: 20px;
@@ -123,7 +123,7 @@ strong {
   box-sizing: border-box;
 }
 
-.aboutUs-subNav>ul {
+.aboutUs-subNav > ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -131,16 +131,16 @@ strong {
   margin: 0 auto;
 }
 
-.aboutUs-subNav>ul>li {
+.aboutUs-subNav > ul > li {
   position: relative;
   font-size: 18px;
 }
 
-.aboutUs-subNav>ul>li>a {
+.aboutUs-subNav > ul > li > a {
   display: block;
 }
 
-.aboutUs-subNav>ul>li::after {
+.aboutUs-subNav > ul > li::after {
   display: inline-block;
   position: absolute;
   top: 5px;
@@ -151,7 +151,7 @@ strong {
   content: '';
 }
 
-.aboutUs-subNav>ul>li:last-child::after {
+.aboutUs-subNav > ul > li:last-child::after {
   display: none;
 }
 
@@ -177,7 +177,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-intro>div {
+.aboutUs-intro > div {
   width: calc(50% - 30px);
 }
 
@@ -200,7 +200,7 @@ strong {
   width: 100%;
 }
 
-.factory-bori>img {
+.factory-bori > img {
   position: absolute;
   top: 100px;
   right: 0;
@@ -428,7 +428,7 @@ strong {
   width: 100%;
 }
 
-.video-bori>img {
+.video-bori > img {
   position: absolute;
   top: 100px;
   left: -60px;
@@ -485,7 +485,7 @@ strong {
   justify-content: space-between;
 }
 
-.youtube-thumbnail__list>a {
+.youtube-thumbnail__list > a {
   display: inline-block;
   position: relative;
   width: calc(33% - 10px);
@@ -573,11 +573,6 @@ strong {
   width: 100%;
 }
 
-.location-map {
-  /* width: 100%; */
-  /* background: url(../img/location.jpg) 50% / cover; */
-}
-
 .location-info {
   width: 35%;
   margin-left: 30px;
@@ -589,16 +584,15 @@ strong {
 
 .takju-info p:first-child {
   font-size: 16px;
-
 }
 
 .info-line {
-  content: '';
   display: inline-block;
   width: 100%;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.3);
   margin: 30px 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  content: '';
 }
 
 .location-wrap .font-14px {
@@ -607,11 +601,9 @@ strong {
 }
 
 .bus-info p:first-child {
-  font-size: 16px;
   padding: 10px 0;
+  font-size: 16px;
 }
-
-
 
 .factoryList-address {
   display: none;
@@ -635,7 +627,7 @@ strong {
     box-sizing: border-box;
   }
 
-  .aboutUs-background__bori>img:nth-child(1) {
+  .aboutUs-background__bori > img:nth-child(1) {
     top: 900px;
   }
 
@@ -666,17 +658,17 @@ strong {
 }
 
 @media (max-width: 1400px) {
-  .aboutUs-background__bori>img:nth-child(1) {
+  .aboutUs-background__bori > img:nth-child(1) {
     top: 700px;
   }
 
-  .aboutUs-background__bori>img:nth-child(3) {
+  .aboutUs-background__bori > img:nth-child(3) {
     top: 3200px;
   }
 }
 
 @media (max-width: 1200px) {
-  .video-bori>img {
+  .video-bori > img {
     top: 50px;
   }
 
@@ -703,7 +695,7 @@ strong {
     flex-wrap: wrap;
   }
 
-  .aboutUs-intro>div {
+  .aboutUs-intro > div {
     width: 100%;
   }
 
@@ -799,8 +791,6 @@ strong {
 }
 
 @media (max-width: 1000px) {
-
-
   .img-60th {
     display: none;
   }
@@ -839,8 +829,8 @@ strong {
   }
 
   .location-wrap {
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .location-map {
@@ -892,7 +882,7 @@ strong {
 }
 
 @media (max-width: 800px) {
-  .video-bori>img {
+  .video-bori > img {
     left: -30px;
   }
 
@@ -919,6 +909,5 @@ strong {
 
   .location-info {
     width: 100%;
-
   }
 }
