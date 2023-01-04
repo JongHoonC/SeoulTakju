@@ -83,6 +83,12 @@
   border: 2px solid #cbc6ad;
   background-color: transparent;
   font-size: 12px;
+  line-height: 30px;
+}
+.writeBtn > a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets,
