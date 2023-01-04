@@ -28,8 +28,8 @@
   position: absolute;
   top: -100px;
   right: 0px;
-  transition: all 0.4s;
   width: 15%;
+  transition: all 0.4s;
 }
 
 .section6 .side-bg img {

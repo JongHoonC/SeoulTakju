@@ -2,8 +2,8 @@
   width: 1200px;
   margin: 0 auto;
   padding: 180px 20px;
-  box-sizing: border-box;
   text-align: center;
+  box-sizing: border-box;
 }
 .welcome__title > h1 {
   font-size: 35px;
@@ -13,8 +13,8 @@
 .welcome__img {
   width: 100px;
   height: auto;
-  text-align: center;
   margin: 50px auto;
+  text-align: center;
 }
 .welcome__img > img {
   display: block;
@@ -23,14 +23,14 @@
 }
 .sign__done {
   padding: 125px 150px;
+  border: 1px solid #625b3a;
   border-radius: 50px 0;
   text-align: center;
   box-sizing: border-box;
-  border: 1px solid #625b3a;
 }
 .sign__done > h1 {
-  font-weight: 700;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .sign__done--text {

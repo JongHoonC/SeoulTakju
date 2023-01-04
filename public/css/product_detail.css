@@ -134,15 +134,15 @@ main {
 }
 @media (max-width: 465px) {
   #product_detail .detail-section__wrap > article > h1 {
+    font-size: 28px;
     font-weight: bold;
     color: #333;
-    font-size: 28px;
   }
 
   #product_detail .detail-section__wrap > article > p {
+    font-size: 12px;
     font-weight: 500;
     color: #333;
-    font-size: 12px;
   }
 }
 

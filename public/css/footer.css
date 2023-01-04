@@ -223,8 +223,8 @@ fp-enabled {
     width: calc(50% - 5px);
   }
   .insta {
-    margin: 0;
     height: 50px;
+    margin: 0;
   }
   .facebook {
     margin: 0;

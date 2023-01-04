@@ -113,8 +113,8 @@
   height: 30px;
   border: none;
   background-color: #cbc6ad;
-  text-align: center;
   line-height: 30px;
+  text-align: center;
 }
 
 .detail__img {
@@ -122,7 +122,7 @@
   height: auto;
 }
 
-.detail__img>img {
+.detail__img > img {
   display: block;
   width: 100%;
   height: auto;
