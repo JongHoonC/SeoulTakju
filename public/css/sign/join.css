@@ -186,6 +186,7 @@
   font-size: 14px;
   color: #4c4c4c;
   box-sizing: border-box;
+  transition: all 0.3s;
 }
 
 .join_form table input.my_number {
