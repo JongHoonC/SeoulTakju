@@ -95,7 +95,7 @@
 }
 
 .road-wrap__list {
-  width: 10%;
+  /* width: 10%; */
   padding-left: 30px;
   box-sizing: border-box;
 }
